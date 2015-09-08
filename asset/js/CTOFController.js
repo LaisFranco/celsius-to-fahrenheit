@@ -33,7 +33,7 @@ var CTOFController = {
 	},
 	
 	showLoading: function(isLoading) {
-		document.querySelector('.label').innerHTML = isLoading ? 'loading...' : 'BMI Result'
+		document.querySelector('.label').innerHTML = isLoading ? 'loading...' : 'Fahrenheit Result'
 	}
 
 };
